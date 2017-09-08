@@ -2,16 +2,17 @@
 <head>
 <script>   
         
-        function colon(x, despartitor){
-
-        var str = x[0];
+    function divizoriUnici(x){
         
-            for (var i = 1; i < x.length; i++){
-        str = str + despartitor + x[i];
+        for (var i = 2; i < x; i++){
+            if (x % i == 0){
+             var divizori = [i];
+            }
         }
-        return str ;
-}
-console.log(colon(["a", "b", "c"], ":"));
+        return divizori;
+    }
+console.log(divizoriUnici(64));
+        
         
 </script>
 </head>

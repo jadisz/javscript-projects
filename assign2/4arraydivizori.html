@@ -2,16 +2,16 @@
 <head>
 <script>   
         
-        function colon(x, despartitor){
-
-        var str = x[0];
-        
-            for (var i = 1; i < x.length; i++){
-        str = str + despartitor + x[i];
+    function totiDivizorii(x){
+        var divizori = [];
+        for (var i = 2; i < x; i++){
+            if (x % i == 0){
+            divizori.push(i);
+            }
         }
-        return str ;
-}
-console.log(colon(["a", "b", "c"], ":"));
+        return divizori;
+    }
+console.log(totiDivizorii(64));
         
 </script>
 </head>

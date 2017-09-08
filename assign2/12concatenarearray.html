@@ -2,17 +2,15 @@
 <head>
 <script>   
         
-        function colon(x, despartitor){
+    function arrayiesToArray(x, y){
 
-        var str = x[0];
-        
-            for (var i = 1; i < x.length; i++){
-        str = str + despartitor + x[i];
-        }
-        return str ;
-}
-console.log(colon(["a", "b", "c"], ":"));
-        
+    var z = x.concat(y);
+    return z ;
+
+    }
+      
+    console.log(arrayiesToArray(["You're"], ["almost there!"]));
+
 </script>
 </head>
 <body>
