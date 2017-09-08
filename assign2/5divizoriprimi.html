@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>   
+        
+        function colon(x, despartitor){
+
+        var str = x[0];
+        
+            for (var i = 1; i < x.length; i++){
+        str = str + despartitor + x[i];
+        }
+        return str ;
+}
+console.log(colon(["a", "b", "c"], ":"));
+        
+</script>
+</head>
+<body>
+Returneaza un array care sa contina toti divizorii primi a unui numar. 
+Ex pentru 64: trebuie sa returneze [2,2,2,2,2,2,2,2]   
+</body>
+</html>

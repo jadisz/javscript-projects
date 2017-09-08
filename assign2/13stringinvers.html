@@ -1,0 +1,30 @@
+<html>
+<head>
+<script>   
+      //returneaza sirul de caractere in ordine inversa
+      function string(x){
+
+        var str = "";
+        for (var i = x.length - 1; i >= 0; i--){
+        str = str + x[i];
+        }
+        return str ;
+}
+console.log(string("abcdefghijklmnopqrstuvwxyz"));
+       
+</script>
+</head>
+<body> varianta 2
+
+    function string (x) {
+      var str = "";
+    for (var i = 0; i < x.length; i++){
+          str = x[i] + str;
+    }
+return str;
+}
+
+console.log(string("abcdefghijklmnopqrstuvwxyz"));
+  
+</body>
+</html>

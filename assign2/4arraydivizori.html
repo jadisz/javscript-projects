@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>   
+        
+        function colon(x, despartitor){
+
+        var str = x[0];
+        
+            for (var i = 1; i < x.length; i++){
+        str = str + despartitor + x[i];
+        }
+        return str ;
+}
+console.log(colon(["a", "b", "c"], ":"));
+        
+</script>
+</head>
+<body>
+Returneaza un array care sa contina toti divizorii unui numar.
+Ex pentru 64: trebuie sa returneze [2,4,8,16,32]
+</body>
+</html>

@@ -1,0 +1,23 @@
+<html>
+<head>
+<script>                
+
+function colon(x, despartitor){
+
+        var str = x[0];
+        
+         for (var i = 1; i < x.length; i++){
+        str = str + despartitor + x[i];
+        }
+        return str ;
+}
+console.log(colon(["a", "b", "c"], ":"));
+
+</script>
+</head>
+<body>
+O functie care primeste o lista de siruri de caractere si inca un sir de caractere si returneaza 
+sirurile concatenate despartite prin respectivul sir ( de ex ["asd", "qwe", "zxc"] si despartitorul
+este ": ", rezultatul este  "asd: qwe: zxc")
+</body>
+</html>

@@ -1,0 +1,60 @@
+body  {
+    background-color: #2E5894;
+}
+
+div.container {
+    border: 1px solid gray;
+    margin: 50px;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+#poza{
+    float: left;
+    padding-left: 40px;
+}
+#f {
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+}
+.nav-menu {
+    border-bottom-style: inset;
+    margin: 8px;
+}
+#head{
+    border-top-left-radius:23px;
+    border-top-right-radius:23px;
+
+}
+#content{
+    background: white;
+}
