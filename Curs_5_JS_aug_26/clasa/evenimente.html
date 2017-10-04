@@ -1,0 +1,52 @@
+<html>
+<head>
+</head>  
+
+<body> 
+    <form id="myform">
+        <input name="firstName"
+         type="text"
+         placeholder="firstName"
+         onkeydown="KeyDown();"
+         onkeypress="KeyPress();"
+         onkeyup="KeyUp();"
+         onchange ="change();"
+         oninput="input();"
+         
+
+         /> <br />
+        <input name="lastName" type="text" placeholder="lastName"/>  <br />
+        <select name="Age">
+            <option value="0-7"> 0-7 </option>
+            <option value="8-14"> 8-14</option>
+        </select>
+        Check me out: <input type="checkbox" value="test"/>
+        Favourite band: <br /> 
+        A: <input type="radio" value="A" name="favoriteBand" /> <br />
+        B: <input type="radio" value="B" name="favoriteBand" />
+
+    </form>
+</body>
+
+<script>
+     var firstNameElem = document.querySelector("#myform [name=\"firstName\"]") //space selecteaza toti copii
+
+     function KeyDown(){
+         console.log("KeyDown", firstNameElem.value);
+     }
+
+     function KeyPress(){
+         console.log("KeyPress", firstNameElem.value);
+     }
+     function KeyUp(){
+         console.log("KeyUp", firstNameElem.value);
+     }
+     function change(){
+         console.log("change", firstNameElem.value);
+     }
+
+     function input(){
+         console.log("input", firstNameElem.value);
+     }
+</script>
+</html>

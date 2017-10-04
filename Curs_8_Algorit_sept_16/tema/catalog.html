@@ -1,0 +1,52 @@
+<!DOCTYPE  html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css"> </link>
+    <script src="script.js">
+
+    </script>
+
+</head>
+
+<body>
+
+    <h2>Lista elevi</h2>
+    
+
+    <form action="">
+        <fieldset>
+            
+                <label for="Nume">Nume</label>
+                <input type="text" id="Nume">
+
+                <input type = "button" value  = "Adauga Elev" id = "btnAdaugareElev" onlick="adaugareElev(); " />
+                
+            </br>
+        </fieldset>
+    </br>
+        <fieldset>
+                <a class="button" onclick="sortAsc(note)">Sorteaza ascendent dupa medie note</a>
+            </br>
+                <a class="button" onclick="sortDesc(note)">Sorteaza descendent dupa medie note</a>
+                <h4>Nume &nbsp;&nbsp;&nbsp; Medie note</h4>
+            </br></br>    
+            <input type="submit" value="Vezi notele"></button>
+                </br>
+        </fieldset>
+    </form>
+
+    <div id="lista_elevi_wrapper">
+    </div>
+
+    <div id="note_elev_wrapper">
+    </div>
+
+    <script>
+        note = generateRandomArray();
+        displayNote(note);
+    </script>
+
+</body>
+
+</html>

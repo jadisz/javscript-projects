@@ -1,0 +1,22 @@
+<html>
+<head>
+</head>  
+
+<body> 
+   
+    <input name="firstName" type="text" placeholder="firstName"  oninput="sayHello();"/> <br />
+    <input name="lastName" type="text" placeholder="lastName"  oninput="sayHello();"/> <br />
+    <p id="greetings"></p>
+</body>
+
+<script>
+function sayHello(){
+    var firstName = document.querySelector("[name=\"firstName\"]");
+    var lastName = document.querySelector("[name=\"lastName\"]");
+    var greetings = document.querySelector("#greetings");
+    greetings.innerHTML="Salut "+firstName.value+" "+lastName.value;
+}
+    
+</script>
+</html>
+

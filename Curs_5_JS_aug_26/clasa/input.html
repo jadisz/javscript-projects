@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>   
+
+<body> 
+<p onmouseover= "changeColor();" onmouseout="changeColor2();" id= "paragraf">  Aici era un text care o sa fie inlocuit de JS </p>
+<p id = "altParagraf">  Aici era un text care o sa fie inlocuit de JS </p>
+
+<div class= "fancy">text1</div>
+<div class= "fancy">text2</div>
+
+<script>
+  
+  function changeColor(){
+    document.getElementById("altParagraf").style.color="red";  
+  }
+  function changeColor2(){
+    document.getElementById("altParagraf").style.color="blue";  
+  }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+<head>
+<script>   
+        
+        function divUnici(x){
+            var divizori = [];
+            var iIntrodus=-1;
+            for (var i = 2; i <= x; ){
+                
+                if (x % i == 0){
+                    x = x/i;
+                    if(iIntrodus!==i){
+                        divizori.push(i);
+                        iIntrodus=i;
+                    }
+                }else{
+                    i++
+                }
+            }
+           return divizori;
+           }   
+console.log(divUnici(12));
+        
+        
+</script>
+</head>
+<body>
+Returneaza un array care sa contina toti divizorii unici primi a unui numar: Ex pentru 64: trebuie sa returneze [2]  
+</body>
+</html>
