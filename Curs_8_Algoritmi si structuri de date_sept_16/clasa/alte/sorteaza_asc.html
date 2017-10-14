@@ -1,0 +1,61 @@
+<html>
+    <head>
+
+        <script>
+
+            var note = [8, 7, 3, 9, 10, 2, 1];
+
+             //functia aici este single responsability purpose nu returneaza nimic
+    
+             function calculeazaMinim (){
+                var min = 10; 
+                     for (var i = 0; i < note.length; i++){ 
+                        if (min > note [i]){
+                         min = note [i];
+                        }
+                    }
+                    return min;
+            }
+            
+            var min = calculeazaMinim();
+            console.log(min); //apel de metoda
+
+            function findPositionInArray(value){
+
+                 for (var i = 0; i < note.length; i++){ 
+                    if (value == note[i]){
+                        return i;
+                    }
+                }
+            }
+                console.log(findPositionInArray(min));
+
+
+            //functia sorteaza crescator
+
+            function sortAsc (){
+                var sortedArray = [];
+                var nrElem = note.length;
+
+                for(var i =  0; i < nrElem; i++){
+                    var min = calculeazaMinim();
+                     var pozitieMinInArray = findPositionInArray(min);
+                    sortedArray.push(min);
+                    note.splice(pozitieMinInArray, 1);
+ 
+                }
+                return sortedArray;
+            }
+            console.log(sortAsc());
+
+        </script>
+
+    </head>
+
+    <body> 
+        elem minim din array
+        pozitia lui minim din array
+        sorteaza crescator
+    </body>
+
+</html>

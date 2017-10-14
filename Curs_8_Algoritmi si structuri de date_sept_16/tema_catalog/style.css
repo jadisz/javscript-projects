@@ -1,0 +1,24 @@
+body {
+    background-color:greenyellow;
+    margin: 0;
+}
+
+.button{
+    background: green;
+    color: white;
+}
+
+#elevi_wrapper {
+    float: left;
+}
+
+#note_wrapper {
+    background-color: lightblue;
+    width: 0%;
+    height: 800px;
+    float: right;
+}
+
+#note_wrapper.open {
+    width: 50%;
+}

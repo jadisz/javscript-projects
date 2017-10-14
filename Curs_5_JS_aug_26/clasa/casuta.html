@@ -4,27 +4,28 @@
 
 <body> 
     
-    <input name="firstNr" type="text" placeholder="firstNr"  oninput="sayHello();"/> <br />
-    <input name="secondNr" type="text" placeholder="secondNr"  oninput="sayHello();"/> <br />
-    <input id="suma"/>
+    <input name = "firstNr" type = "text" placeholder = "firstNr"  oninput = "sayHello();"/> <br />
+    <input name = "secondNr" type = "text" placeholder = "secondNr"  oninput = "sayHello();"/> <br />
+    <input id = "suma"/>
 </body>
 
 <script>
 function sayHello(){
+
     var firstNr = document.querySelector("[name=\"firstNr\"]");
     var secondNr = document.querySelector("[name=\"secondNr\"]");
     var suma = document.querySelector("#suma");
 
-    var a=0;
-    var b=0;
+    var a = 0;
+    var b = 0;
 
     if (!isNaN(parseInt(firstNr.value) )){
-        a=parseInt(firstNr.value);
+        a = parseInt(firstNr.value);
     }
     if (!isNaN(parseInt(secondNr.value) )){
-        b=parseInt(secondNr.value);
+        b = parseInt(secondNr.value);
     }
-    suma.value= a + b; //.innerHTML  la paragrafe; la input folosim .value
+    suma.value = a + b; //.innerHTML  la paragrafe; la input folosim .value
 }
     
 </script>

@@ -1,0 +1,53 @@
+<!DOCTYPE  html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css"> </link>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id = "elevi_wrapper">
+        <h2>Lista elevi</h2>
+
+        <div id = "adaugare_elev_wrapper">
+            <label>Nume:</label>
+            <input type = "text" id = "nume_elev" autofocus  onkeypress = 
+            "if(event.keyCode == 13) {document.getElementById('btnAdaugareElev').click(); }"/>
+            <button onclick = "adaugareElev(); displayElev();" id = "btnAdaugareElev" onlick = "adaugareElev()"> Adauga elev </button>
+            </br></br>
+            <a class = "button" onclick="sortAsc(note)">Sorteaza ascendent dupa medie note</a>
+            </br>
+            <a class = "button" onclick="sortDesc(note)">Sorteaza descendent dupa medie note</a>
+            </br>
+        </div>  
+        
+        <div id = "lista_elevi"></div>
+    </div>
+
+    <div id = "note_wrapper" class="">
+        <div id = "note_elev_wrapper">
+            <button id = "btnAscundeNote" onclick = "hideNote();"> Ascunde note </button>
+            <div><h2 style = "font-family: 'Times New Roman'; font-size: 18px">Note elev: <span id = "span_nume_elev"></span></h2></div>
+
+            <div>
+                <span id = "adaugare_note_wrapper">Nota:</span> 
+                <input type = "number" id = "nota_elev" autofocus  onkeypress = 
+                    "if(event.keyCode == 13) {document.getElementById('btnAdaugaNota').click(); }"/>
+                <button id = "btnAdaugaNota" onclick = "adaugaNota(); displayNote(); medieNote[indexElevPeCareAmDatClick] =
+            medieNoteElev(); displayElev();"> Adauga nota</button>
+            </div>
+            </br>
+
+            <a class = "button" onclick="sortAsc(note)">Sorteaza ascendent notele</a>
+            </br>
+            <a class = "button" onclick="sortDesc(note)">Sorteaza descendent notele</a>
+
+            </br>
+            <h4>Note</h4>
+            <div id = "lista_note"></div>
+            </br>
+        </div>
+    </div>
+</body>
+</html>

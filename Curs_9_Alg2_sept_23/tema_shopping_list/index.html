@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel = "stylesheet" href = "style.css"> </link>
+    <script src = "script.js"> </script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <div class="board">
+        <div id="a" class="shopping-panel">
+            <h3>SHOPPING LIST</h3>
+
+            <div class="shopping-form">
+                <input type = "text" id = "add_item" autofocus  
+                    onkeypress = "if(event.keyCode == 13) {document.getElementById('buttonAdd_item').click();}"/>
+                <button class = "buton-verde" onclick = "addItem(); displayItems();" id = "buttonAdd_item"> Add item </button>     
+            </div>
+        
+            <button class = "buton-mov" onclick = "sort_Asc()"; id = "btnSort_asc"> Sort asc </button>
+            <button class = "buton-mov" onclick = "sort_Desc()"; id = "btnSort_desc"> Sort desc </button>
+            
+            <div id = "tabel"></div>    
+        </div>
+    </div>
+</body>
+</html>

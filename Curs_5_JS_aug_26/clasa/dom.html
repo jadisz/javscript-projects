@@ -6,20 +6,20 @@
 <p id = "paragraf">  Aici era un text care o sa fie inlocuit de JS </p>
 <p id = "altparagraf">  Aici era un text care o sa fie inlocuit de JS </p>
 
-<div class= "fancy">text1</div>
-<div class= "fancy">text2</div>
+<div class = "fancy">text1</div>
+<div class = "fancy">text2</div>
 
 <script>
 
     document.getElementById("paragraf").innerHTML = "am inlocuit continutul paragrafului";  
     document.getElementById("altparagraf").innerText = "am inlocuit </br> continutul paragrafului"; 
     
-    document.getElementById("paragraf").style.color="red";
-    document.getElementById("paragraf").style.backgroundColor= "#000000";
+    document.getElementById("paragraf").style.color = "red";
+    document.getElementById("paragraf").style.backgroundColor = "#000000";
 
     var divurileMeleFancy = document.getElementsByClassName("fancy");
-for (var i=0; i< divurileMeleFancy.length; i++){
-    divurileMeleFancy[i].innerHTML = divurileMeleFancy[i].innerHTML+" A mers !!";
+for (var i = 0; i < divurileMeleFancy.length; i++){
+    divurileMeleFancy[i].innerHTML = divurileMeleFancy[i].innerHTML + " A mers !!";
 }
 
 </script>

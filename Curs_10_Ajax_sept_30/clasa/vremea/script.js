@@ -22,7 +22,7 @@ function afiseazaVremea() {
              //concatenez numele variabilei cu json care contine imaginea si png
              var temperaturaAcum = JSON.parse(json).main.temp; //transforma in obiect pt a apela fiecare proprietate ca un camp
              document.getElementById("temperatura_acum").innerHTML = temperaturaAcum;
-             document.getElementById("descriere").innerHTML = JSON.parse(json).weather[0].descriere;
+             document.getElementById("descriere").innerHTML = JSON.parse(json).weather[0].description;
              document.getElementById("umiditate").innerHTML = JSON.parse(json).main.humidity;
              document.getElementById("presiune").innerHTML = JSON.parse(json).main.pressure;
              document.getElementById("temperatura_curenta").innerHTML =JSON.parse(json).main.temp;
@@ -36,7 +36,6 @@ xhttp.send();
 
 }
 
+/* URL_FORECAST_WEATHER  pt tema,  lista de structuri cu care imi place sa lucrez, divuri cu float, length
+class foreCast () */
 
-
-/* URL_FORECAST_WEATHER  pt tema,  lista de structuri cu care imi place sa lucrez divuri cu float length
-class foreCast ()
