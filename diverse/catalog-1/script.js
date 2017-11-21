@@ -93,24 +93,23 @@ function medieNoteElev() {
 
 function calculeazaMinim(note){
     var min = note[0]; 
-         for (var i = 0; i < note.length; i++){ 
-            if (min > note [i]){
-             min = note [i];
-            }
+    for (var i = 0; i < note.length; i++){ 
+        if (min > note [i]){
+            min = note [i];
         }
-        return min;
+    }
+    return min;
 }
 
 function findPositionInArray(value, note){
-
-     for (var i = 0; i < note.length; i++){ 
+    for (var i = 0; i < note.length; i++){ 
         if (value == note[i]){
             return i;
         }
     }
 }
 
-function sortAsc (){
+function sortAscNote (){
     var sortedArray = [];
     var NoteElev = note[indexElevPeCareAmDatClick];
     var nrElem = NoteElev.length;
@@ -138,7 +137,7 @@ function calculeazaMaxim (note){
 }
 
 
-function sortDesc (){
+function sortDescNote (){
     var sortedArray = [];
     var NoteElev = note[indexElevPeCareAmDatClick];
     var nrElem = NoteElev.length;
@@ -156,7 +155,7 @@ function sortDesc (){
 
 //sortare medii ascendent
 
-function sortAsc (){
+function sortAscMedii (){
     var sortedArray = [];
     var nrElem = medieNote.length;
 
@@ -172,7 +171,7 @@ function sortAsc (){
 
 //functia sorteaza descrescator mediile
 
-function sortDesc (){
+function sortDescMedii (){
     var sortedArray = [];
     var nrElem = medieNote.length;
 

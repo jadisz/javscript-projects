@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href="style.css"> </link>
+     <script src = "script.js">  </script>
+    </head>
+
+    <body>
+        <div class="border">
+            <div id = "input_wrapper">
+                <input autofocus type = "text" id = "input_oras"/>
+                 <button class= "button" onclick = "afiseazaVremea()"> Afiseaza vremea </button>
+                 <button class="button" onclick = "afiseazaPrognoza()"> Afiseaza prognoza </button>
+            </div>
+
+             <div id = "vremea_wrapper"> 
+
+                <h3>Vremea acum</h3>
+            
+                 <div class="line">  </div>    
+
+                <img id = "imagine_vreme"/>
+
+                <p>Temperatura acum: <span id = "temperatura_acum"> </span> </p>
+                <p>Descriere:  <span id = "descriere"></span></p>
+                <p>Umiditate: <span id = "umiditate"></span> </p>
+                <p>Presiune: <span id = "presiune"></span></p>
+                <p>Temperatura curenta: <span id = "temperatura_curenta"></span></p>
+                <p>Maxima zilei: <span id = "minima_zilei"></span></p>
+                <p>Maxima zilei: <span id = "maxima_zilei"></span></p>
+
+            </div> 
+
+
+            <div id = "prognoza_wrapper"> 
+                
+                <h3>Afiseaza prognoza</h3>
+
+                
+                <div class="line">  </div>    
+                <din id="prognoza-container"></din>
+                
+                
+            </div> 
+
+        </div>
+
+    </body>
+</html>
+
+

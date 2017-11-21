@@ -3,7 +3,7 @@ var list =  [];
 
 function addItem(){
     var item =  document.getElementById("add_item").value;
-    list.push(item);
+    list.push(new String(item));
     //clears the input on add_item
     document.getElementById('add_item').value = null;
 }
@@ -19,7 +19,7 @@ function displayItems(){
     for (var i = 0; i < list.length; i++){
         html = html + `
             <tr>
-                <td id="item-${i}">${list[i]}</td>
+                <td id="item-${i}" class="${list[i].buyed ? 'bought-item' : ''}">${list[i]}</td>
                 <td><button class = "buton-marcare" onclick = "addStrikeThrough(${i})"> Mark as buyed </button></td>
             </tr>
          `;
@@ -31,19 +31,18 @@ function displayItems(){
 }   
 
 function addStrikeThrough(itemNo){
-    document.getElementById("item-" + itemNo).classList.add('bought-item');
+    // document.getElementById("item-" + itemNo).classList.add('bought-item');
+    list[itemNo].buyed = true;
+    displayItems();
 }
 
 function sort_Asc(){
-
     list.sort();
     displayItems();
 }
 
 function sort_Desc(){
-
     list.sort();
     list.reverse();
     displayItems();
 }
-

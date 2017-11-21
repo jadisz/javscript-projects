@@ -1,0 +1,57 @@
+[
+    {
+    "name":" Xbox 360 Wireless Controller, USB, negru", 
+    "price": "164 Lei",
+    "detalii":"",
+    "image": "xbox164.jpg"
+    },
+    {
+    "name":" Ceas Smartwatch E-Boda Smart Time 300, Slot SIM", 
+    "price": "199 Lei",
+    "detalii":"",
+    "image": "smart.jpg"
+    },
+    {
+    "name":" Telefon mobil Samsung Galaxy J3 (2016), Dual SIM, 8GB, 4G, Blacku", 
+    "price": "499 Lei",
+    "detalii":"",
+    "image": "galaxy499.jpg"
+    },
+    {
+    "name":" Casti audio cu banda Beats Solo 3 by Dr. Dre, Wireless, Gold", 
+    "price": "1099 Lei",
+    "detalii":"",
+    "image": "beats_mic.jpg"
+    },
+    {
+    "name":" Telefon mobil Apple iPhone 7, 32GB, Gold", 
+    "price": "2899 Lei",
+    "detalii":"",
+    "image": "iphone2899.jpg"
+    },
+    {
+    "name":" Apple Composite AV Cable", 
+    "price":"185 Lei",
+    "detalii":"",
+    "image": "applecomposite_cable.jpg"
+    },
+    
+    {
+    "name":"Husa Laptop Dell pentru XPS 13 ", 
+    "price": "164 Lei",
+    "detalii":"",
+    "image": "husalaptopdell.jpg"
+    },
+     {
+    "name":"Husa de protectie Apple Smart Case pentru iPad Air 2, Red", 
+    "price": "359 Lei",
+    "detalii":"",
+    "image":"husa-ipad.jpg"
+    },
+    {
+    "name": "Laptop Gaming Acer Predator Helios 300 PH317-51-727W, Intel Core i7", 
+    "price": "5699 Lei",
+    "detalii":"",
+    "image": "laptop_gaming-5699.jpg"
+    } 
+    ]

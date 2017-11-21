@@ -33,8 +33,9 @@ function displayElev(){
             </tr>
         `;
     }
-   htmlElevi = htmlElevi + "</table>"
-document.getElementById("lista_elevi").innerHTML = htmlElevi;
+   htmlElevi = htmlElevi + "</table>";
+   
+   document.getElementById("lista_elevi").innerHTML = htmlElevi;
     }
 
     function displayNote(){

@@ -12,13 +12,13 @@
 
         <div id = "adaugare_elev_wrapper">
             <label>Nume:</label>
-            <input type = "text" id = "nume_elev" autofocus  onkeypress = 
+            <input type = "text" name="letters" pattern="[A-Za-z]+" id = "nume_elev" autofocus  onkeypress = 
             "if(event.keyCode == 13) {document.getElementById('btnAdaugareElev').click(); }"/>
-            <button onclick = "adaugareElev(); displayElev();" id = "btnAdaugareElev" onlick = "adaugareElev()"> Adauga elev </button>
+            <button onclick = "adaugareElev(); displayElev();" id = "btnAdaugareElev"> Adauga elev </button>
             </br></br>
-            <a class = "button" onclick="sortAsc(note)">Sorteaza ascendent dupa medie note</a>
+            <a class = "button" onclick="sortAscMedii(); displayElev()">Sorteaza ascendent dupa medie note</a>
             </br>
-            <a class = "button" onclick="sortDesc(note)">Sorteaza descendent dupa medie note</a>
+            <a class = "button" onclick="sortDescMedii(); displayElev()">Sorteaza descendent dupa medie note</a>
             </br>
         </div>  
         
@@ -32,16 +32,16 @@
 
             <div>
                 <span id = "adaugare_note_wrapper">Nota:</span> 
-                <input type = "number" id = "nota_elev" autofocus  onkeypress = 
+                <input type = "number" name="quantity" min="0" max="10" id = "nota_elev" autofocus  onkeypress = 
                     "if(event.keyCode == 13) {document.getElementById('btnAdaugaNota').click(); }"/>
                 <button id = "btnAdaugaNota" onclick = "adaugaNota(); displayNote(); medieNote[indexElevPeCareAmDatClick] =
             medieNoteElev(); displayElev();"> Adauga nota</button>
             </div>
             </br>
 
-            <a class = "button" onclick="sortAsc(note)">Sorteaza ascendent notele</a>
+            <a class = "button" onclick="sortAscNote(); displayNote();">Sorteaza ascendent notele</a>
             </br>
-            <a class = "button" onclick="sortDesc(note)">Sorteaza descendent notele</a>
+            <a class = "button" onclick="sortDescNote(); displayNote();">Sorteaza descendent notele</a>
 
             </br>
             <h4>Note</h4>

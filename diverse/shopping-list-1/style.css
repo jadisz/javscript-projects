@@ -6,22 +6,28 @@ body {
 
 .board {
     min-height: 470px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 8px;
+}
+
+#shopping-list-title{
+    padding-top: 0px;
+    font-family: "Sans-serif";
+    font-weight:  bold;
+    font-size: 150%;
 }
 
 .shopping-panel {
     background-color: white;
     border-radius: 10px;
-    padding-left: 180px;
+    padding-left: 250px;
     padding-top: 50px;
     padding-bottom: 30px;
     margin-bottom: 20px;
-}
-
-.shopping-panel h3 {
-    font-weight: 600;
+    margin-left: 160px;
+    margin-right: 160px;
+    
 }
 
 .shopping-form {
@@ -35,6 +41,7 @@ body {
     padding : 6px;
     height: 45px;
     width: 90px;
+    font-family: "Sans-serif";
 }
 
 .buton-mov{
@@ -43,7 +50,7 @@ body {
     padding : 1px;
     height: 25px;
     width: 70px;
-    font-family: Georgia;
+    font-family: "Sans-serif";
     font-size: 10px;
 }
 
@@ -54,15 +61,14 @@ body {
     width: 100px;
     height: 29px;
     font-size: 12px;
+    font-family: "Sans-serif";
+    margin-left: 60px;
 }
 
 #add_item{
     width: 210px;
     height: 37px;
     font-size: 12px;
-}
-
-#tabel {
 }
 
 .bought-item {

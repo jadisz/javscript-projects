@@ -10,13 +10,16 @@ body {
 
 #elevi_wrapper {
     float: left;
+    /* margin: auto; */
+    padding: 10px;
 }
 
 #note_wrapper {
     background-color: lightblue;
-    width: 0%;
+    /* width: 0%; */
     height: 800px;
     float: right;
+    padding-left: 10px;
 }
 
 #note_wrapper.open {

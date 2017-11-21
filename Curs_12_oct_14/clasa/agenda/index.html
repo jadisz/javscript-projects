@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel = "stylesheet" href = "style.css"> </link>
+    <script src = "script.js"> </script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <div>
+        <div class="agenda">
+             <h1>Agenda</h1>
+        </div>    
+
+        <div class="child1">
+
+            <span>Nume: <span><input type = "text" id = "nume_contact" autofocus  
+            onkeypress = "if(event.keyCode == 13) {document.getElementById('buttonAdd_item').click();}"/>
+
+            <span> Telefon: </span><input type = "text" id = "telefon_contact" autofocus  
+            onkeypress = "if(event.keyCode == 13) {document.getElementById('add_contact').click();}"/>
+            <button class = "buton-albastru" onclick = "if(isOperatieDeModificare) { saveModificare(); } else {addContact();} displayContact()" id = "add_contact"> ADAUGA CONTACT </button>     
+
+        </div>
+            
+        <div id = "tabel"></div>    
+        </div>
+
+    </div>
+</body>
+</html>
