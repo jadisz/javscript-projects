@@ -1,0 +1,56 @@
+body {
+    background-color: lightblue;
+}
+
+#input_wrapper{
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+#input_oras{
+    height: 28px;
+    width: 550px;
+
+}
+
+.button{
+    background-color: dodgerblue;
+    border-radius: 10px;
+    height: 35px;
+    width: 140px;
+    color:  white;
+    font-family: Georgia;
+}
+
+.line{
+    width: 88%;
+    height:1px;
+    background: rgba(0, 0, 0, 0.57);
+}
+#vremea_wrapper {
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#prognoza_wrapper{
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.ziua{
+    width: 10px;
+}
