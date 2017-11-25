@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 
@@ -30,3 +31,37 @@
         <div id = "lista_note">
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel = "stylesheet" href="style.css">
+    <script src = "script.js">
+
+    </script>
+</head>
+
+<body>
+    <div id = "elevi_wrapper">
+        <h3> Lista elevi </h3>
+
+        <div id = "adaugare_elev_wrapper">
+            <input type ="text" pattern="[A-Za-z]{3}" id = "nume_elev" autofocus 
+             onkeypress = "if(event.keyCode == 13) {document.getElementById('btnAdaugareElev').click();}"/>
+            <button onclick = "adaugareElev(); displayElev();" id = "btnAdaugareElev"> Adaugare elev </button>
+        </div>
+
+        <div id = "lista_elevi"></div>
+    </div>
+
+    <div id = "note_wrapper">
+        <button id = "btnAscundeNote" onclick = "hideNote();"> Ascunde note </button>
+        <div> Nume elev: <span id = "span_nume_elev"> </span></div>
+        <div id = "adaugare_note_wrapper">
+        <input type= "number" name="quantity" min="0" max="10" id="nota_elev"/>
+        <button id = "btnAdaugaNota" onclick = "adaugaNota(); displayNote(); medieNote[indexElevPeCareAmDatClick] = medieNoteElev(); displayElev();"> Adauga nota</button>
+        <div id = "lista_note">
+</body>
+</html>
+>>>>>>> a2a6c4202e9dc203e4905681557b046e043f6279

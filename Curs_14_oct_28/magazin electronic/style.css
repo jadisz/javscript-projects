@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .button1{
     background-color: dodgerblue;
     border-radius: 5px;
@@ -33,4 +34,41 @@
     width: 200px;
     height: 300px;
 
+=======
+.button1{
+    background-color: dodgerblue;
+    border-radius: 5px;
+    height: 35px;
+    width: 190px;
+    color:  white;
+    font-family: Georgia;
+}
+.button2{
+    background-color: white;
+    border-radius: 05px;
+    height: 35px;
+    width: 95px;
+    color:  black;
+    font-family: Georgia;
+}
+.nume{
+    margin-left: 230px;
+    margin-right: 665px;
+    font-size: 35px;
+}
+
+.box{
+    max-width: 812px;
+    margin: 50px auto 0 auto;
+}
+.boxes{
+    border-style: groove;
+    border-width: 1px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+
+>>>>>>> a2a6c4202e9dc203e4905681557b046e043f6279
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: #d0bcfe;
     font-family: Georgia; 
@@ -67,4 +68,75 @@ body {
 
 .bought-item {
     text-decoration: line-through;
+=======
+body {
+    background-color: #d0bcfe;
+    font-family: Georgia; 
+    font-size: 18px;
+}
+
+.board {
+    min-height: 470px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+}
+
+.shopping-panel {
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.shopping-panel h3 {
+    font-weight: 600;
+}
+
+.shopping-form {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.buton-verde{
+    background-color:  #87dba1;
+    border-radius: 10px;
+    padding : 6px;
+    height: 45px;
+    width: 90px;
+}
+
+.buton-mov{
+    background-color:#c38dd8 ;
+    border-radius: 8px;
+    padding : 1px;
+    height: 25px;
+    width: 70px;
+    font-family: Georgia;
+    font-size: 10px;
+}
+
+.buton-marcare{
+    background-color: salmon;
+    border-radius: 9px;
+    padding : 2px;
+    width: 100px;
+    height: 29px;
+    font-size: 12px;
+}
+
+#add_item{
+    width: 210px;
+    height: 37px;
+    font-size: 12px;
+}
+
+#tabel {
+}
+
+.bought-item {
+    text-decoration: line-through;
+>>>>>>> a2a6c4202e9dc203e4905681557b046e043f6279
 }

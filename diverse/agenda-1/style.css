@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: cornsilk;
 }
@@ -49,4 +50,57 @@ body {
 }
 .column {
     width: 99px;
+=======
+body {
+    background-color: cornsilk;
+}
+
+.agenda h1 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+    
+.child1{
+    background-color: gold;
+    margin-top: 52px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    border-radius: 9px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 690px;
+}
+
+.buton-albastru{
+    background-color: #4949a2;
+    border-radius: 9px;
+    height: 38px;
+    margin-top: 10px;
+    color: white;
+}
+
+.buton2{
+    background-color: none; 
+    border-style: none;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.table2{
+    border-radius: 9px;
+    text-align: center;
+    background-color: gold;
+    margin: auto;
+    width: 690px;
+    border-radius: 9px;
+    padding:  55px;
+}
+.column {
+    width: 99px;
+>>>>>>> a2a6c4202e9dc203e4905681557b046e043f6279
 }

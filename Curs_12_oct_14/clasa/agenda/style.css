@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: cornsilk;
 }
@@ -47,4 +48,55 @@ body {
 
 #table{
     background-color: gold;
+=======
+body {
+    background-color: cornsilk;
+}
+
+.agenda {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+    
+.child1{
+    background-color: gold;
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    border-radius: 9px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.buton-albastru{
+    background-color: blue;
+    border-radius: 9px;
+    height: 45px;
+}
+
+.buton2{
+    background-color: none; 
+    border-style: none;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.table2{
+    background-color: gold;
+    padding:  1px 425px 115px 75px;
+    margin-left: 300px;
+    margin-right: 1000px;
+    margin-top: 0px;
+    border-radius: 9px;
+    text-align: center; 
+}
+
+#table{
+    background-color: gold;
+>>>>>>> a2a6c4202e9dc203e4905681557b046e043f6279
 }
